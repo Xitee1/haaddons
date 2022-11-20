@@ -27,10 +27,10 @@ thread_cache_size = 8
 thread_stack = 192K
 tmp_table_size = 16M
 
-# Disable query cache
+# Enable query cache
+query_cache_type = 1
+query_cache_size = 10M
 query_cache_limit = 1M
-query_cache_size = 0M
-query_cache_type = 0
 
 # InnoDB Tweaks
 innodb_buffer_pool_size = 128M
